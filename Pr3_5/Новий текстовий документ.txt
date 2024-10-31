@@ -1,0 +1,44 @@
+/*const character = {
+    name:'Pikachu',
+    hp:100,
+    nameName:true,
+    name_name:true,
+    name1:true,
+    100:true,
+    $:true,
+    _:true,
+    '1name це імя/some strange': true,
+    kick:function(){
+        console.log('Kick Me');
+    }
+};
+console.log(character);
+console.log(character.name);
+console.log(character['hp']);
+console.log(character['1name це імя/some strange']);
+const count = 100 ;
+console.log(character[count]);
+character.power = 'electro';
+console.log(character);
+character.hp -= 20 ;
+console.log( character.hp)
+delete character.$;
+delete character._;
+delete character.name1;
+delete character.name_name;
+delete character['1name це імя/some strange'];
+delete character['100'];
+delete character.nameName;
+console.log(character);
+character.kick();*/
+/*const message = ['Hello' , true , 2020];
+message.push('World');
+console.log(message);*/
+const $box = document.getElementById('box');
+console.log($box.innerText);
+$box.innerText='Это div c id=box!';
+$box.style.width = '500px';
+$box.style.backgroundColor='green';
+$box.addEventListener('click', function(){
+    alert('Ти зробив клік');
+})
